@@ -10,7 +10,7 @@ namespace ConsoleApp11
     public class Program : AccessMOdifier
     {
 
-        public static void Main(string[] args)
+        public static void  Main(string[] args)
         {
             try
             {
