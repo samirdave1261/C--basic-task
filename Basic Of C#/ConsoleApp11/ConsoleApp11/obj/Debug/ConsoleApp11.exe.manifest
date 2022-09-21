@@ -42,14 +42,26 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="ConsoleApp11.exe" size="8152">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="ConsoleApp11.exe" size="8664">
       <assemblyIdentity name="ConsoleApp11" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>TOEXi4fz71qpmHQ6RvbNsJ2JAIwuH6v5LaIyDes+dW4=</dsig:DigestValue>
+        <dsig:DigestValue>a1XP6zeUtdS+aM2m2T57Y8Oc9aCCcVh45m2+8msTcwI=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Pcbpower_New.Models.dll" size="473088">
+      <assemblyIdentity name="Pcbpower_New.Models" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>N06RcGgG3Bdh9alYipHzdhADmQlCXo1z7+997w8RHuQ=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>

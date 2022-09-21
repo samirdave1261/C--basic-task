@@ -5,29 +5,25 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
+
 namespace ConsoleApp11
 {
     public class Program : AccessMOdifier
     {
+        
 
-        public static void  Main(string[] args)
+        public static void Main(string[] args)
         {
             try
             {
+                for (int i = 1; i <= 10; i++)
+                {
 
-                List<string> data = new List<string>();
-                data.Add("dsds");
-                data.Add("ssfsfv");
-                data.Add("dss");
+                    for (int j = i <= 5 ? 1 : 10; i <= 5 ? j <= i : j>=i; j +=  i <= 5 ? 1 : -1)
+                    { Console.Write("*"); }
 
-                Dictionary<string, string> names = new Dictionary<string, string>();
-                names.Add("1", "Sonoo");
-                names.Add("2", "Peter");
-                names.Add("3", "James");
-                names.Add("4", "Ratan");
-                names.Add("5", "Irfan");
-
-                Console.WriteLine(names["3"]);
+                    Console.WriteLine();
+                }
 
 
             }
@@ -35,9 +31,27 @@ namespace ConsoleApp11
             {
                 Console.WriteLine(ex.Message);
             }
-            finally{ Console.WriteLine("Finally!"); }
+            finally { Console.WriteLine("\nFinally!"); }
 
             Console.ReadKey();
+        }
+
+        public void ListDic()
+        {
+            List<string> data = new List<string>();
+            data.Add("dsds");
+            data.Add("ssfsfv");
+            data.Add("dss");
+
+            Console.WriteLine(data.Count);
+            Dictionary<string, string> names = new Dictionary<string, string>();
+            names.Add("1", "Sonoo");
+            names.Add("2", "Peter");
+            names.Add("3", "James");
+            names.Add("4", "Ratan");
+            names.Add("5", "Irfan");
+
+            Console.WriteLine(names["3"]);
         }
 
 
@@ -49,6 +63,8 @@ namespace ConsoleApp11
         {
             Console.WriteLine(a);
         }
+
+        public (int, string) test__(string a) { return (Convert.ToInt32(a), a); }
 
         public void summm()
         {
