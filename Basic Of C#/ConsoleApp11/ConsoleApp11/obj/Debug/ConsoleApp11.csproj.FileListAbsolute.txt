@@ -9,3 +9,15 @@ C:\Users\admin2\source\repos\ConsoleApp11\ConsoleApp11\bin\Debug\ConsoleApp11.ex
 C:\Users\admin2\source\repos\ConsoleApp11\ConsoleApp11\bin\Debug\ConsoleApp11.application
 C:\Users\admin2\source\repos\ConsoleApp11\ConsoleApp11\obj\Debug\ConsoleApp11.exe.manifest
 C:\Users\admin2\source\repos\ConsoleApp11\ConsoleApp11\obj\Debug\ConsoleApp11.application
+D:\Production\CSharp--basic-task\Basic Of C#\ConsoleApp11\ConsoleApp11\bin\Debug\ConsoleApp11.exe.config
+D:\Production\CSharp--basic-task\Basic Of C#\ConsoleApp11\ConsoleApp11\bin\Debug\ConsoleApp11.exe.manifest
+D:\Production\CSharp--basic-task\Basic Of C#\ConsoleApp11\ConsoleApp11\bin\Debug\ConsoleApp11.application
+D:\Production\CSharp--basic-task\Basic Of C#\ConsoleApp11\ConsoleApp11\bin\Debug\ConsoleApp11.exe
+D:\Production\CSharp--basic-task\Basic Of C#\ConsoleApp11\ConsoleApp11\bin\Debug\ConsoleApp11.pdb
+D:\Production\CSharp--basic-task\Basic Of C#\ConsoleApp11\ConsoleApp11\obj\Debug\ConsoleApp11.csproj.AssemblyReference.cache
+D:\Production\CSharp--basic-task\Basic Of C#\ConsoleApp11\ConsoleApp11\obj\Debug\ConsoleApp11.csproj.CoreCompileInputs.cache
+D:\Production\CSharp--basic-task\Basic Of C#\ConsoleApp11\ConsoleApp11\obj\Debug\ConsoleApp11.exe.manifest
+D:\Production\CSharp--basic-task\Basic Of C#\ConsoleApp11\ConsoleApp11\obj\Debug\ConsoleApp11.application
+D:\Production\CSharp--basic-task\Basic Of C#\ConsoleApp11\ConsoleApp11\obj\Debug\ConsoleApp11.exe
+D:\Production\CSharp--basic-task\Basic Of C#\ConsoleApp11\ConsoleApp11\obj\Debug\ConsoleApp11.pdb
+D:\Production\CSharp--basic-task\Basic Of C#\ConsoleApp11\ConsoleApp11\obj\Debug\ConsoleApp11.csproj.CopyComplete
