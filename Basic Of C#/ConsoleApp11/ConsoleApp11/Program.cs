@@ -16,15 +16,7 @@ namespace ConsoleApp11
         {
             try
             {
-                for (int i = 1; i <= 10; i++)
-                {
-
-                    for (int j = i <= 5 ? 1 : 10; i <= 5 ? j <= i : j>=i; j +=  i <= 5 ? 1 : -1)
-                    { Console.Write("*"); }
-
-                    Console.WriteLine();
-                }
-
+                
 
             }
             catch (Exception ex)
@@ -34,6 +26,28 @@ namespace ConsoleApp11
             finally { Console.WriteLine("\nFinally!"); }
 
             Console.ReadKey();
+        }
+
+        public void AccessModifierEncapsulation()
+        {
+            Encapsulations obj = new Encapsulations();
+            //obj.Data_ = "Test";
+            //Console.WriteLine(obj.Data_);
+
+            //obj.Read_ = "vfdfzd";
+            //Console.WriteLine(obj.Read_);
+        }
+
+        public void PatternWithOnlyTwoLoop()
+        {
+            for (int i = 1; i <= 10; i++)
+            {
+
+                for (int j = i <= 5 ? 1 : 10; i <= 5 ? j <= i : j >= i; j += i <= 5 ? 1 : -1)
+                { Console.Write("*"); }
+
+                Console.WriteLine();
+            }
         }
 
         public void ListDic()
@@ -55,6 +69,19 @@ namespace ConsoleApp11
         }
 
 
+    }
+
+    public class Encapsulations
+    {
+        private string data;
+        private string read = "Dataaaa";
+
+        public string Data_
+        {
+            set { data = value; }
+        }
+        public string Read_
+        { get { return read; } }
     }
 
     public class AccessMOdifier
